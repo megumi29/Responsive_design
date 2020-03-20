@@ -1,0 +1,31 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+img{
+width: 100%;
+}
+
+.image_container{
+    width: 35%;
+    max-width: 125px;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+header{
+    border: 2px dotted chocolate;
+
+}
+
+@media (width: 550px) {
+body{
+    display: flex;
+    background-color: chartreuse;
+}
+}
