@@ -23,7 +23,7 @@ header{
 
 }
 
-@media (width: 550px) {
+@media (min-width: 550px) {
 body{
     display: flex;
     background-color: chartreuse;
